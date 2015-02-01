@@ -9,8 +9,8 @@ alias sfometd 'curl http://weather.noaa.gov/pub/data/observations/metar/decoded/
 
 # EAX / KLXT
 alias lxtafd 'curl http://weather.noaa.gov/pub/data/raw/fx/fxus63.keax.afd.eax.txt -s -o ~/.eaxafd; less -P "`sed -n -e 2p ~/.eaxafd` - ISSUED `sed -n -e 5p ~/.eaxafd`" ~/.eaxafd'
-alias lxtmet 'curl http://weather.noaa.gov/pub/data/observations/metar/stations/KLXT.TXT -s -o ~/.sfolxt; less -P "" ~/.sfolxt'
-alias lxtmetd 'curl http://weather.noaa.gov/pub/data/observations/metar/decoded/KLXT.TXT -s -o ~/.sfolxtd; less -P "" ~/.sfolxtd'
+alias lxtmet 'curl http://weather.noaa.gov/pub/data/observations/metar/stations/KLXT.TXT -s -o ~/.lxtmet; less -P "" ~/.lxtmet'
+alias lxtmetd 'curl http://weather.noaa.gov/pub/data/observations/metar/decoded/KLXT.TXT -s -o ~/.lxtmetd; less -P "" ~/.lxtmetd'
 
 alias qk 'quickast >> ~/.qk; less -P "" ~/.qk'
 
