@@ -7,3 +7,5 @@ alias eaxafd 'curl http://weather.noaa.gov/pub/data/raw/fx/fxus63.keax.afd.eax.t
 alias qk 'quickast >> ~/.qk; less -P "" ~/.qk'
 
 alias work 'cd ~/Documents/Development/'
+
+alias dfupdate 'cd ~/Documents/Development/dotfiles; git checkout master; git pull --rebase; ./deploy'
