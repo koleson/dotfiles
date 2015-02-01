@@ -1,9 +1,17 @@
+
+# MTR / KSFO
 alias sfoafd 'curl http://weather.noaa.gov/pub/data/raw/fx/fxus66.kmtr.afd.mtr.txt -s -o ~/.sfoafd; less -P "`sed -n -e 2p ~/.sfoafd` - ISSUED `sed -n -e 5p ~/.sfoafd`" ~/.sfoafd' 
 # note:  synoptic overview from this file hasn't been updated since
 # 17 september 2013
 alias sfosyn 'curl http://weather.noaa.gov/pub/data/forecasts/city/ca/san_francisco.txt -s -o ~/.sfosyn; less -P "" ~/.sfosyn'
-alias sfomet 'curl http://weather.noaa.gov/pub/data/observations/metar/decoded/KSFO.TXT -s -o ~/.sfomet; less -P "" ~/.sfomet'
-alias eaxafd 'curl http://weather.noaa.gov/pub/data/raw/fx/fxus63.keax.afd.eax.txt -s -o ~/.eaxafd; less -P "`sed -n -e 2p ~/.eaxafd` - ISSUED `sed -n -e 5p ~/.eaxafd`" ~/.eaxafd'
+alias sfomet 'curl http://weather.noaa.gov/pub/data/observations/metar/stations/KSFO.TXT -s -o ~/.sfomet; less -P "" ~/.sfomet'
+alias sfometd 'curl http://weather.noaa.gov/pub/data/observations/metar/decoded/KSFO.TXT -s -o ~/.sfometd; less -P "" ~/.sfometd'
+
+# EAX / KLXT
+alias lxtafd 'curl http://weather.noaa.gov/pub/data/raw/fx/fxus63.keax.afd.eax.txt -s -o ~/.eaxafd; less -P "`sed -n -e 2p ~/.eaxafd` - ISSUED `sed -n -e 5p ~/.eaxafd`" ~/.eaxafd'
+alias lxtmet 'curl http://weather.noaa.gov/pub/data/observations/metar/stations/KLXT.TXT -s -o ~/.sfolxt; less -P "" ~/.sfolxt'
+alias lxtmetd 'curl http://weather.noaa.gov/pub/data/observations/metar/decoded/KLXT.TXT -s -o ~/.sfolxtd; less -P "" ~/.sfolxtd'
+
 alias qk 'quickast >> ~/.qk; less -P "" ~/.qk'
 
 alias work 'cd ~/Documents/Development/'
