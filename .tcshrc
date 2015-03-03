@@ -12,7 +12,7 @@ alias lxtafd 'curl http://weather.noaa.gov/pub/data/raw/fx/fxus63.keax.afd.eax.t
 alias lxtmet 'curl http://weather.noaa.gov/pub/data/observations/metar/stations/KLXT.TXT -s -o ~/.lxtmet; less -P "" ~/.lxtmet'
 alias lxtmetd 'curl http://weather.noaa.gov/pub/data/observations/metar/decoded/KLXT.TXT -s -o ~/.lxtmetd; less -P "" ~/.lxtmetd'
 
-alias qk 'quickast >> ~/.qk; less -P "" ~/.qk'
+alias qk 'quickast > ~/.qk; less -P "" ~/.qk'
 
 alias work 'cd ~/Documents/Development/'
 
