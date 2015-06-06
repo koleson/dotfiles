@@ -9,6 +9,9 @@ alias sfometd 'curl http://weather.noaa.gov/pub/data/observations/metar/decoded/
 alias sfoprof 'open http://met.nps.edu/~lind/profiler/map/cccoast.html'
 alias ordprof 'open http://met.nps.edu/~lind/profiler/ord_915.gif'
 
+# KSFO region
+alias kmcam 'open http://icons.wunderground.com/webcamramdisk/w/s/wstefanc/1/current.jpg?$(date +%s)'
+
 # EAX / KLXT
 alias lxtafd 'curl http://weather.noaa.gov/pub/data/raw/fx/fxus63.keax.afd.eax.txt -s -o ~/.eaxafd; less -P "`sed -n -e 2p ~/.eaxafd` - ISSUED `sed -n -e 6p ~/.eaxafd`" ~/.eaxafd'
 alias lxtmet 'curl http://weather.noaa.gov/pub/data/observations/metar/stations/KLXT.TXT -s -o ~/.lxtmet; less -P "" ~/.lxtmet'
