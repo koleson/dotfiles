@@ -1,0 +1,6 @@
+alias sfoafd='curl http://weather.noaa.gov/pub/data/raw/fx/fxus66.kmtr.afd.mtr.txt -s -o ~/.sfoafd; less ~/.sfoafd' 
+alias sfosyn='curl http://weather.noaa.gov/pub/data/forecasts/city/ca/san_francisco.txt -s -o ~/.sfosyn; less ~/.sfosyn'
+alias sfomet='curl http://weather.noaa.gov/pub/data/observations/metar/decoded/KSFO.TXT -s -o ~/.sfomet; less ~/.sfomet'
+alias eaxafd='curl http://weather.noaa.gov/pub/data/raw/fx/fxus63.keax.afd.eax.txt -s -o ~/.eaxafd; less ~/.eaxafd'
+alias sfoprof='open http://met.nps.edu/~lind/profiler/map/cccoast.html'
+alias ordprof='open http://met.nps.edu/~lind/profiler/ord_915.gif'
