@@ -7,3 +7,4 @@ alias eaxafd='curl http://tgftp.nws.noaa.gov/data/raw/fx/fxus63.keax.afd.eax.txt
 alias sfoprof='open http://met.nps.edu/~lind/profiler/map/cccoast.html'
 alias ordprof='open http://met.nps.edu/~lind/profiler/ord_915.gif'
 alias cleardd='rm -rf ~/Library/Developer/Xcode/DerivedData/'
+alias clearpp='rm -rf "~/Library/MobileDevice/Provisioning Profiles"'
