@@ -8,3 +8,5 @@ alias sfoprof='open http://met.nps.edu/~lind/profiler/map/cccoast.html'
 alias ordprof='open http://met.nps.edu/~lind/profiler/ord_915.gif'
 alias cleardd='rm -rf ~/Library/Developer/Xcode/DerivedData/'
 alias clearpp='rm -rf "~/Library/MobileDevice/Provisioning Profiles"'
+
+source ~/.work_profile
