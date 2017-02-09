@@ -9,4 +9,6 @@ alias ordprof='open http://met.nps.edu/~lind/profiler/ord_915.gif'
 alias cleardd='rm -rf ~/Library/Developer/Xcode/DerivedData/'
 alias clearpp='rm -rf "~/Library/MobileDevice/Provisioning Profiles"'
 
+alias xcopen='open -a Xcode'
+
 source ~/.work_profile
