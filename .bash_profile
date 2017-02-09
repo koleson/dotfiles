@@ -11,4 +11,4 @@ alias clearpp='rm -rf "~/Library/MobileDevice/Provisioning Profiles"'
 
 alias xcopen='open -a Xcode'
 
-source ~/.work_profile
+test -f ~/.work_profile && source ~/.work_profile
