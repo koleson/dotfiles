@@ -6,6 +6,8 @@ alias sfoafd='curl http://tgftp.nws.noaa.gov/data/raw/fx/fxus66.kmtr.afd.mtr.txt
 alias eaxafd='curl http://tgftp.nws.noaa.gov/data/raw/fx/fxus63.keax.afd.eax.txt -s -o ~/.eaxafd; less -P "$(sed -n -e 2p ~/.eaxafd) - ISSUED $(sed -n -e 6p ~/.eaxafd)" ~/.eaxafd'
 alias sfoprof='open http://met.nps.edu/~lind/profiler/map/cccoast.html'
 alias ordprof='open http://met.nps.edu/~lind/profiler/ord_915.gif'
+alias wttr='curl wttr.in/94107'
+
 alias cleardd='rm -rf ~/Library/Developer/Xcode/DerivedData/'
 alias clearpp='rm -rf "~/Library/MobileDevice/Provisioning Profiles"'
 
