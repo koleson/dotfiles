@@ -14,3 +14,6 @@ alias clearpp='rm -rf "~/Library/MobileDevice/Provisioning Profiles"'
 alias xcopen='open -a Xcode'
 
 test -f ~/.work_profile && source ~/.work_profile
+
+# git completion - use deploy.sh to put this in home folder
+test -f ~/.git-completion.bash && source ~/.git-completion.bash
