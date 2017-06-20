@@ -17,3 +17,11 @@ test -f ~/.work_profile && source ~/.work_profile
 
 # git completion - use deploy.sh to put this in home folder
 test -f ~/.git-completion.bash && source ~/.git-completion.bash
+
+if test -f ~/.git-prompt.sh
+then 
+	source ~/.git-prompt.sh
+	PS1='[\u@\h:\W]$(__git_ps1 " (%s)")\$ '
+else
+	PS1='[\u@\h:\W]\$ '
+fi
