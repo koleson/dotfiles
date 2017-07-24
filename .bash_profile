@@ -29,3 +29,6 @@ fi
 # xcopen completion
 test -f ~/.xcopen-completion.sh && source ~/.xcopen-completion.sh
 
+# ssh host completion
+test -f ~/.ssh-completion.sh && source ~/.ssh-completion.sh
+
