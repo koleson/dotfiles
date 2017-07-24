@@ -25,3 +25,7 @@ then
 else
 	PS1='[\u@\h:\W]\$ '
 fi
+
+# xcopen completion
+test -f ~/.xcopen-completion.sh && source ~/.xcopen-completion.sh
+

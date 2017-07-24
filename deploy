@@ -4,3 +4,4 @@ cp .tcshrc ~/.tcshrc
 cp .bash_profile ~/.bash_profile
 cp git-completion.bash ~/.git-completion.bash
 cp git-prompt.sh ~/.git-prompt.sh
+cp xcopen-completion.sh ~/.xcopen-completion.sh
