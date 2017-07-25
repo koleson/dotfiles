@@ -1,3 +1,7 @@
+if [ -f ~/.bashrc ]; then
+   source ~/.bashrc
+fi
+
 alias sfomet='curl http://tgftp.nws.noaa.gov/data/observations/metar/stations/KSFO.TXT -s -o ~/.sfomet; less ~/.sfomet'
 alias sfometd='curl http://tgftp.nws.noaa.gov/data/observations/metar/decoded/KSFO.TXT -s -o ~/.sfometd; less ~/.sfometd'
 alias lxtmet='curl http://tgftp.nws.noaa.gov/data/observations/metar/stations/KLXT.TXT -s -o ~/.lxtmet; less ~/.lxtmet'
