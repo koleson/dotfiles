@@ -25,9 +25,9 @@ test -f ~/.git-completion.bash && source ~/.git-completion.bash
 if test -f ~/.git-prompt.sh
 then 
 	source ~/.git-prompt.sh
-	PS1='[\u@\h:\W]$(__git_ps1 " (%s)")\$ '
+	PS1='\[\033[00m\][\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]]\[$(tput sgr0)\]$(__git_ps1 " (%s)")\$ '
 else
-	PS1='[\u@\h:\W]\$ '
+	PS1='\[\033[00m\][\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]]\[$(tput sgr0)\]\$ '
 fi
 
 # xcopen completion
