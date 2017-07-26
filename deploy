@@ -11,9 +11,11 @@ elif [[ "$OSTYPE" == "linux-gnueabihf" ]]; then
 	echo "deploying for linux (ARM)"
 	cp .bash_profile ~/.bashrc
 	cp .bash_profile_linux ~/.bash_profile
-else
-	echo deploying for non-linux
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+	echo deploying for macOS
 	cp .bash_profile ~/.bash_profile
+else
+	echo "not sure how to handle OSTYPE $OSTYPE - preserving bash profiles"
 fi
 
 cp git-completion.bash ~/.git-completion.bash
