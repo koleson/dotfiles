@@ -1,7 +1,16 @@
-#!/bin/sh
+#!/bin/bash
 
 cp .tcshrc ~/.tcshrc
-cp .bash_profile ~/.bash_profile
+
+
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+	echo deploying for linux
+	cp .bash_profile ~/.bashrc
+else
+	echo deploying for non-linux
+	cp .bash_profile ~/.bash_profile
+fi
+
 cp git-completion.bash ~/.git-completion.bash
 cp git-prompt.sh ~/.git-prompt.sh
 cp xcopen-completion.sh ~/.xcopen-completion.sh
