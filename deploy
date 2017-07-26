@@ -6,6 +6,9 @@ cp .tcshrc ~/.tcshrc
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
 	echo deploying for linux
 	cp .bash_profile ~/.bashrc
+elif [[ "$OSTYPE" == "linux-gnueabihf" ]]; then
+	echo deploying for linux (ARM)
+	cp .bash_profile ~/.bashrc
 else
 	echo deploying for non-linux
 	cp .bash_profile ~/.bash_profile
