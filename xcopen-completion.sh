@@ -1,2 +1,2 @@
 shopt -s extglob
-complete -f -X '!*.@(xcworkspace|xcodeproj)' xcopen
+complete -f -X '!*.@(xcworkspace|xcodeproj|playground)' xcopen
