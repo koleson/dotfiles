@@ -2,8 +2,7 @@
 
 brewcmd=$( command -v brew )
 
-echo "brewcmd:"
-echo $brewcmd
+# get homebrew
 
 if [ $brewcmd == '' ]; then 
   echo "installing homebrew..."
@@ -12,5 +11,5 @@ else
   echo "homebrew already installed; adding packages"
 fi
 
-brew install carthage ffmpeg gnupg imagemagick ncdu nmap
-brew cask install atom etcher keybase
+# built-in command to install from Brewfile
+brew bundle
