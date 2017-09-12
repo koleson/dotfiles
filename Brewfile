@@ -12,6 +12,9 @@ brew "mas"
 brew "ncdu"
 brew "nmap"
 brew "pngcrush"
+brew "speedtest-cli"
+brew "watch"
+brew "wget"
 brew "youtube-dl"
 
 # arduino requires java.  proceed at your own risk.
