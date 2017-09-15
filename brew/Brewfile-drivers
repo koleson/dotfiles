@@ -1,0 +1,8 @@
+cask "silicon-labs-vcp-driver"
+# cask "wch-ch34x-usb-serial-driver"
+# cask "canon-imagerunner-printer-driver-ufrii"
+cask "ftdi-vcp-driver"
+# cask "xbox360-controller-driver"
+# cask "yubico-authenticator"
+# cask "yubikey-neo-manager"
+# cask "yubiswitch"
