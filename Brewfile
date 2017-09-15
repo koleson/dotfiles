@@ -1,6 +1,7 @@
 tap "caskroom/cask"
 tap "homebrew/bundle"
 tap "homebrew/core"
+tap "buo/cask-upgrade"
 
 brew "carthage"
 brew "ffmpeg"
