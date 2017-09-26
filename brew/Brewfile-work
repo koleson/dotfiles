@@ -1,3 +1,4 @@
 cask "google-hangouts"
 cask "sequel-pro"
 cask "tower"
+cask "wavebox"

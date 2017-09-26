@@ -29,3 +29,5 @@ elif [ $1 == 'home' ]; then
 else
   echo "invalid location specifier - try work or home"
 fi
+
+
