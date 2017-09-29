@@ -10,5 +10,4 @@ sudo networksetup -setsecurewebproxystate Ethernet off
 MITM_PID=`cat ~/.mitmpid`
 echo "Killing mitmweb (PID $MITM_PID)"
 kill $MITM_PID
-
 echo "Done"
