@@ -14,11 +14,13 @@ elif [[ "$OSTYPE" == "linux-gnueabihf" ]]; then
 elif [[ "$OSTYPE" == "darwin"* ]]; then
 	echo deploying for macOS
 	cp .bash_profile ~/.bash_profile
+	cp scripts/proxy-off.sh ~/.proxy-off.sh
+	cp scripts/proxy-on.sh ~/.proxy-on.sh
 else
 	echo "not sure how to handle OSTYPE $OSTYPE - preserving bash profiles"
 fi
 
-cp git-completion.bash ~/.git-completion.bash
-cp git-prompt.sh ~/.git-prompt.sh
-cp xcopen-completion.sh ~/.xcopen-completion.sh
-cp ssh-completion.sh ~/.ssh-completion.sh
+cp scripts/git-completion.bash ~/.git-completion.bash
+cp scripts/git-prompt.sh ~/.git-prompt.sh
+cp scripts/xcopen-completion.sh ~/.xcopen-completion.sh
+cp scripts/ssh-completion.sh ~/.ssh-completion.sh
