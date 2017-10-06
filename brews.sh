@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
-brewcmd=$( command -v brew )
 workingdir=$( pwd )
 brewsdir=$( pwd )/brew
 specifier=$1
 
 # get homebrew
 
-if [ $brewcmd == '' ]; then
+
+command -v brew
+
+if [ $? != 0 ]; then
   echo "installing homebrew..."
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
