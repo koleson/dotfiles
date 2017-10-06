@@ -35,7 +35,7 @@ cask "google-chrome"
 # cask "hwsensors"
 # cask "intel-power-gadget"
 cask "istat-menus"
-cask "jollysfastvnc"
+# cask "jollysfastvnc"
 cask "keybase"
 # cask "little-snitch"
 cask "milkytracker"
@@ -67,4 +67,4 @@ mas "RadarScope", id: 432027450
 mas "The Unarchiver", id: 425424353
 mas "Transmit", id: 403388562
 mas "Tweetbot", id: 557168941
-mas "Xcode", id: 497799835
+#mas "Xcode", id: 497799835
