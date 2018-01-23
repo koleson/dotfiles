@@ -6,15 +6,19 @@ specifier=$1
 
 # get homebrew
 
-
+echo "looking for homebrew."
 command -v brew
 
 if [ $? != 0 ]; then
   echo "installing homebrew..."
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
-  echo "homebrew already installed; adding packages"
+  echo "homebrew already installed; updating."
 fi
+
+brew update
+
+echo "update complete; installing from Brewfile."
 
 # built-in command to install from Brewfile
 brew bundle --file=$brewsdir/Brewfile
