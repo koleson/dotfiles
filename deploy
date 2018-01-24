@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cp .tcshrc ~/.tcshrc
-
+cp configs/ssh_config ~/.ssh/config
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
 	echo deploying for linux
