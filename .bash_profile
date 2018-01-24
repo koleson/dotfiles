@@ -13,6 +13,8 @@ alias clearpp='rm -rf "~/Library/MobileDevice/Provisioning Profiles"'
 
 alias xcopen='open -a Xcode'
 
+alias getprints='ssh-keyscan localhost 2>/dev/null | ssh-keygen -E md5 -lf -'
+
 # source work profile
 test -f ~/.work_profile && source ~/.work_profile
 
