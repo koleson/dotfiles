@@ -15,6 +15,8 @@ alias xcopen='open -a Xcode'
 
 alias getprints='ssh-keyscan localhost 2>/dev/null | ssh-keygen -E md5 -lf -'
 
+alias screenies='mv ~/Desktop/Screen* ~/Desktop/screenies'
+
 # source work profile
 test -f ~/.work_profile && source ~/.work_profile
 
