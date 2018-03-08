@@ -23,7 +23,7 @@ echo "update complete; installing base from Brewfile."
 # built-in command to install from Brewfile
 brew bundle --file=$brewsdir/Brewfile
 
-if [ $specifier == '' ]; then
+if [ $# -eq 0 ]; then
   echo "no brewfile specifier - stopping with base"
   echo "specify work or home for machine-specific packages"
 elif [ $specifier == 'work' ]; then
