@@ -7,8 +7,10 @@ tap "buo/cask-upgrade"
 
 # brews
 brew "carthage"
+brew "coreutils"
 brew "ffmpeg"
 brew "gnupg"
+brew "gnu-sed"
 brew "gpg1"
 brew "htop"
 brew "imagemagick"
