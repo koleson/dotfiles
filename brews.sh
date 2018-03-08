@@ -7,7 +7,7 @@ specifier=$1
 # get homebrew
 
 echo "looking for homebrew."
-command -v brew
+command -v brew > /dev/null
 
 if [ $? != 0 ]; then
   echo "installing homebrew..."
@@ -18,18 +18,18 @@ fi
 
 brew update
 
-echo "update complete; installing from Brewfile."
+echo "update complete; installing base from Brewfile."
 
 # built-in command to install from Brewfile
 brew bundle --file=$brewsdir/Brewfile
 
-if [ specifier == '' ]; then
+if [ $specifier == '' ]; then
   echo "no brewfile specifier - stopping with base"
   echo "specify work or home for machine-specific packages"
-elif [ specifier == 'work' ]; then
+elif [ $specifier == 'work' ]; then
   echo "installing work packages"
   brew bundle --file=$brewsdir/Brewfile-work
-elif [ specifier == 'home' ]; then
+elif [ $specifier == 'home' ]; then
   echo "installing home packages"
   brew bundle --file=$brewsdir/Brewfile-home
 else
