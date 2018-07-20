@@ -2,8 +2,8 @@ tap "caskroom/cask"
 tap "caskroom/drivers"
 tap "homebrew/bundle"
 tap "homebrew/core"
+tap "homebrew/cask-versions"
 tap "buo/cask-upgrade"
-
 
 # brews
 brew "carthage"
@@ -51,6 +51,7 @@ cask "piezo"
 cask "slack"
 cask "steermouse"
 cask "synthesia"
+cask "tower2"
 cask "tranquility"
 cask "the-hit-list"
 cask "viscosity"
