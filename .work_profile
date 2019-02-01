@@ -1,3 +1,4 @@
-
+alias cartup='carthage update --cache-builds --platform iOS --use-ssh'
+alias cartboot='carthage bootstrap --cache-builds --platform iOS --use-ssh'
 
 source ~/.work_profile_private
