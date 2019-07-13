@@ -7,8 +7,8 @@
 # cask "steamcmd"
 cask "steam"
 # cask "synergy"
-# cask "transmit-disk"
-# cask "transmit"
+# note:  transmit is installed by base Brewfile
+cask "transmit-disk"
 # cask "vmware-fusion"
 # cask "yoda"
 cask "brother-p-touch-editor"

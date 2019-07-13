@@ -35,8 +35,8 @@ cask "coda"
 cask "balenaetcher"
 cask "google-chrome"
 # cask "gqrx"
-# cask "hwsensors"
-# cask "intel-power-gadget"
+cask "hwsensors"
+cask "intel-power-gadget"
 cask "istat-menus"
 # cask "jollysfastvnc"
 cask "keybase"
@@ -47,20 +47,21 @@ cask "omnidisksweeper"
 # cask "omnigraffle"
 # cask "omniplan"
 # cask "piezo"
-# cask "psequel"
+cask "psequel"
 cask "slack"
 cask "steermouse"
 cask "synthesia"
 cask "tower2"
 cask "tranquility"
 cask "the-hit-list"
-# cask "viscosity"
+cask "viscosity"
 cask "vlc"
-# cask "wireshark"
+cask "wireshark"
 cask "wwdc"
 # cask "xquartz"
 
 # mac app store
+# 1Password now installed as a cask.  kmo 2019-07-13
 # mas "1Password", id: 443987910
 # mas "Cathode", id: 499233976
 mas "Deliveries", id: 924726344
@@ -72,4 +73,5 @@ mas "RadarScope", id: 432027450
 mas "The Unarchiver", id: 425424353
 mas "Transmit", id: 403388562
 #mas "Tweetbot", id: 557168941
-#mas "Xcode", id: 497799835
+mas "Tweetbot 3 for Twitter", id: 1384080005
+mas "Xcode", id: 497799835
