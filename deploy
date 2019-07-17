@@ -16,6 +16,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 	cp .bash_profile ~/.bash_profile
 	cp scripts/proxy-off.sh ~/.proxy-off.sh
 	cp scripts/proxy-on.sh ~/.proxy-on.sh
+	cp configs/karabiner.json ~/.config/karabiner/karabiner.json
 else
 	echo "not sure how to handle OSTYPE $OSTYPE - preserving bash profiles"
 fi
