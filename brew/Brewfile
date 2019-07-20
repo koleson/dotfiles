@@ -73,6 +73,8 @@ mas "Pixelmator", id: 407963104
 mas "RadarScope", id: 432027450
 mas "The Unarchiver", id: 425424353
 mas "Transmit", id: 403388562
-#mas "Tweetbot", id: 557168941
+# 557168941 = tweetbot 2.0
+# mas "Tweetbot", id: 557168941
+# 1384080005 = tweetbot 3.0
 mas "Tweetbot 3 for Twitter", id: 1384080005
 mas "Xcode", id: 497799835
