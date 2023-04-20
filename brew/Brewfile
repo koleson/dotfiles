@@ -1,81 +1,109 @@
-tap "caskroom/cask"
-tap "caskroom/drivers"
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "homebrew/cask-versions"
 # tap "buo/cask-upgrade"
 
 # brews
-brew "carthage"
+brew "binwalk"
+# brew "carthage"
+brew "cmake"
+brew "curl"
 brew "coreutils"
+brew "esptool"
 brew "ffmpeg"
 brew "gnupg"
 brew "gnu-sed"
 brew "gpg1"
+brew "go"
 brew "htop"
 brew "imagemagick"
+brew "influxdb-cli"
 brew "iperf3"
 brew "irssi"
+brew "jq"
 brew "mas"
+brew "mosquitto"
 brew "ncdu"
+brew "netcat"
 brew "nmap"
-brew "tmux"
+brew "open-ocd"
+brew "platformio"
 brew "pngcrush"
+brew "qemu"
+brew "qrencode"
 brew "speedtest-cli"
+brew "telnet"
+brew "tmux"
 brew "watch"
 brew "wget"
-brew "youtube-dl"
+# brew "youtube-dl"
+brew "yt-dlp"
 
 # app casks
-# arduino requires java.  proceed at your own risk.
-# cask "arduino"
-# cask "atom"
-cask "arq"
+
+cask "altair-graphql-client"
+cask "balenaetcher"
+cask "blackhole-2ch"
 cask "chromium"
 cask "coda"
-cask "balenaetcher"
+cask "firefox"
 cask "google-chrome"
-# cask "gqrx"
-cask "hwsensors"
-cask "intel-power-gadget"
+cask "hex-fiend"
+cask "iina"
+cask "inav-configurator"
+# cask "hwsensors"
+# cask "intel-power-gadget"
 cask "istat-menus"
 # cask "jollysfastvnc"
-cask "keybase"
+cask "kaleidoscope"
 cask "karabiner-elements"
+cask "keybase"
 # cask "little-snitch"
 cask "milkytracker"
 # cask "netbeans"
+cask "nova"
+cask "obs"
 cask "omnidisksweeper"
-# cask "omnigraffle"
+cask "omnigraffle"
 # cask "omniplan"
 # cask "piezo"
-cask "psequel"
+# cask "psequel" # RIP
+# cask "postman"
+cask "proxyman"
+cask "saleae-logic"
+cask "serial"
 cask "slack"
 cask "steermouse"
-cask "synthesia"
-cask "tower2"
-cask "tranquility"
-cask "the-hit-list"
-cask "viscosity"
+# cask "the-hit-list"
+cask "tower"
+# cask "tranquility"
+# cask "virtualbox"
+# cask "viscosity"
+cask "visual-studio-code"
 cask "vlc"
-cask "wireshark"
+# cask "wireshark"
 cask "wwdc"
+cask "xcodes"
 # cask "xquartz"
 
 # mac app store
 # 1Password now installed as a cask.  kmo 2019-07-13
 # mas "1Password", id: 443987910
 # mas "Cathode", id: 499233976
+mas "Capo", id: 696977615
 mas "Deliveries", id: 924726344
+mas "Flame", id: 325206381
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "PCalc", id: 403504866
 mas "Pixelmator", id: 407963104
+mas "Brother P-touch editor", id: 1453365242
 mas "RadarScope", id: 432027450
 mas "The Unarchiver", id: 425424353
 mas "Transmit", id: 403388562
 # 557168941 = tweetbot 2.0
 # mas "Tweetbot", id: 557168941
 # 1384080005 = tweetbot 3.0
-mas "Tweetbot 3 for Twitter", id: 1384080005
+# mas "Tweetbot 3 for Twitter", id: 1384080005 # RIP
 mas "Xcode", id: 497799835
