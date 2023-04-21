@@ -16,11 +16,12 @@ cask "steam"
 # cask "synergy"
 cask "synthesia"
 cask "transmission"
-cask "transmit"
-# cask "transmit-disk" # RIP
 cask "tunnelbear"
 
-cask "brother-p-touch-editor"
+# cask "brother-p-touch-editor" - now installed via Mac App Store
+
 cask "ultimaker-cura"
 # cask "vmware-fusion"
 # cask "yoda"
+
+mas "Brother P-touch editor", id: 1453365242
