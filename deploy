@@ -7,13 +7,16 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
 	echo deploying for linux
 	cp .bash_profile ~/.bashrc
 	cp .bash_profile_linux ~/.bash_profile
+	cp .zprofile ~/.zprofile
 elif [[ "$OSTYPE" == "linux-gnueabihf" ]]; then
 	echo "deploying for linux (ARM)"
 	cp .bash_profile ~/.bashrc
 	cp .bash_profile_linux ~/.bash_profile
+	cp .zprofile ~/.zprofile
 elif [[ "$OSTYPE" == "darwin"* ]]; then
 	echo deploying for macOS
 	cp .bash_profile ~/.bash_profile
+	cp .zprofile ~/.zprofile
 	cp scripts/proxy-off.sh ~/.proxy-off.sh
 	cp scripts/proxy-on.sh ~/.proxy-on.sh
 	cp configs/karabiner.json ~/.config/karabiner/
