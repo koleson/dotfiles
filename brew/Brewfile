@@ -119,3 +119,5 @@ mas "Transmit", id: 403388562
 
 tap "qmk/qmk"
 brew "qmk"
+
+brew "font-jetbrains-mono-nerd-font"
