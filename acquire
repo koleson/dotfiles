@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cp ~/.tcshrc .tcshrc
+cp ~/.ssh/config configs/ssh_config
+
+# TODO:  is there still any reason to differentiate
+# between darwin and linux?  i think my dotfiles work the same on both by now.
+# kmo 1 jan 2025 20h32
+cp .bash_profile ~/.bashrc
+cp .zprofile ~/.zprofile
