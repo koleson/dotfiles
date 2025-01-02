@@ -6,10 +6,12 @@ cask "discord"
 cask "gqrx"
 # cask "istat-server"
 # cask "kicad"
+cask "mountain-duck"
 # cask "nestopia"
 # cask "openzfs"
 # cask "parallels"
 cask "silicon-labs-vcp-driver"
+cask "spamsieve"
 # cask "squeak"
 # cask "starcraft"
 # cask "steamcmd"
@@ -26,3 +28,4 @@ cask "ultimaker-cura"
 # cask "yoda"
 
 mas "Brother P-touch editor", id: 1453365242
+mas "Wireguard", id: 1451685025

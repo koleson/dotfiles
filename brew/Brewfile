@@ -14,6 +14,7 @@ brew "curl"
 brew "cyme"
 brew "esptool"
 brew "ffmpeg"
+brew "gh"
 brew "gnupg"
 brew "gnu-sed"
 # brew "gpg1"
@@ -110,6 +111,7 @@ mas "PCalc", id: 403504866
 mas "Pixelmator", id: 407963104
 mas "RadarScope", id: 432027450
 mas "The Unarchiver", id: 425424353
+mas "Things", id: 904280696
 mas "Transmit", id: 403388562
 # 557168941 = tweetbot 2.0
 # mas "Tweetbot", id: 557168941
@@ -120,4 +122,4 @@ mas "Transmit", id: 403388562
 tap "qmk/qmk"
 brew "qmk"
 
-brew "font-jetbrains-mono-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
