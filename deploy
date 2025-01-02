@@ -17,8 +17,6 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 	echo deploying for macOS
 	cp .bash_profile ~/.bash_profile
 	cp .zprofile ~/.zprofile
-	cp scripts/proxy-off.sh ~/.proxy-off.sh
-	cp scripts/proxy-on.sh ~/.proxy-on.sh
 	cp configs/karabiner.json ~/.config/karabiner/
 else
 	echo "not sure how to handle OSTYPE $OSTYPE - preserving bash profiles"
