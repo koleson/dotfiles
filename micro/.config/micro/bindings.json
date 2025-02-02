@@ -1,0 +1,12 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "CtrlUnderscore": "lua:comment.comment",
+    "Ctrl-a": "StartOfText",
+    "Ctrl-d": "Delete",
+    "Ctrl-e": "EndOfLine",
+    "Ctrl-g": "JumpLine",
+    "Ctrl-v": "ScrollDown",
+    "Ctrl-w": "Find",
+    "Ctrl-y": "ScrollUp",
+    "Ctrl-u": "Paste"
+}
