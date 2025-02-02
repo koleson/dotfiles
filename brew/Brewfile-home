@@ -29,3 +29,4 @@ cask "ultimaker-cura"
 
 mas "Brother P-touch editor", id: 1453365242
 mas "Wireguard", id: 1451685025
+mas "Bitwarden", id: 1352778147
