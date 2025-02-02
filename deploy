@@ -16,6 +16,7 @@ fi
 echo "deploying stowed configurations"
 
 echo " - zsh"; stow --verbose=0 zsh
+echo " - micro"; stow --verbose=0 micro
 
 echo "stowed configurations done"
 
