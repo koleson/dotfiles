@@ -1,7 +1,32 @@
 #!/bin/bash
 
+# check for gnu stow
+if ! command -v stow &> /dev/null; then
+  echo "Error: Stow is not installed or not available."
+  exit 1
+fi
+
+# check for brew if on macOS
+if [[ $OSTYPE == darwin ]]; then
+  if ! command -v brew &> /dev/null; then
+    echo "`brew` is not present.  it can be installed with `/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"`"
+  fi
+fi
+
+echo "deploying stowed configurations"
+
+echo " - zsh"; stow --verbose=0 zsh
+
+echo "stowed configurations done"
+
+echo "legacy deploys ignored - edit deploy to re-enable as needed"
+exit 0
+
+# legacy stuff follows
+
 cp .tcshrc ~/.tcshrc
 cp configs/ssh_config ~/.ssh/config
+
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
 	echo deploying for linux
