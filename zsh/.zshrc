@@ -14,6 +14,7 @@ if [[ $TERM == linux ]]; then
   # POWERLEVEL9K_MODE=PLAIN
 else
   ZSH_THEME="powerlevel10k/powerlevel10k"
+  [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 fi
 
 # Uncomment the following line to use case-sensitive completion.
