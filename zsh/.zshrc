@@ -8,7 +8,13 @@ fi
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="powerlevel10k/powerlevel10k"
+if [[ $TERM == linux ]]; then
+  ZSH_THEME="${ZSH_THEME:-bureau}"
+  # ZSH_THEME="powerlevel10k/powerlevel10k"
+  # POWERLEVEL9K_MODE=PLAIN
+else
+  ZSH_THEME="powerlevel10k/powerlevel10k"
+fi
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -68,9 +74,6 @@ export EDITOR='micro'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 alias screenies='mv ~/Desktop/*Screen*.png ~/Desktop/screenies'
 
 alias o69met='curl -sS https://tgftp.nws.noaa.gov/data/observations/metar/stations/KO69.TXT | cat'
@@ -92,3 +95,4 @@ alias nfc='curl -Ss https://www.wpc.ncep.noaa.gov/NationalForecastChart/staticma
 alias driveway='curl -sS http://driveway.tworock-cameras.lan/snap.jpeg | kitty +kitten icat --align left'
 alias roof='curl -sS http://roof.tworock-cameras.lan/snap.jpeg | kitty +kitten icat --align left'
 
+export PATH="$HOME/.local/bin:$PATH"
